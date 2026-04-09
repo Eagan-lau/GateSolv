@@ -1,0 +1,4 @@
+{
+  "best_val_mcc": 0.6162261223723926,
+  "best_encoder_ckpt": "./run_train_graph/graph_encoder_best.pt"
+}
