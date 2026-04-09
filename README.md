@@ -170,3 +170,11 @@ python infer.py \
     --fuse_ckpt results/fusion/models/vector_noln/vector_noln.pt \
     --train_run_dir results/formal_training/run_YYYYMMDD_HHMMSS \
     --device cuda:0
+
+Pretrained single-model files
+The pretrained single ML models used in the final classification stage are distributed separately via Baidu Netdisk.
+
+Link: https://pan.baidu.com/s/1kyTmC6j-JyfieSykpKHM0A?pwd=8qgu
+Extraction code: 8qgu
+
+Please download these files and place them in the expected model directory before running inference or reproducing the final classification stage.
