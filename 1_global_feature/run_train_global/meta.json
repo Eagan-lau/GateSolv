@@ -1,0 +1,17 @@
+{
+  "best_val_mcc": 0.43316829262696444,
+  "best_val_threshold": 0.5017132759094238,
+  "best_model_ckpt": "./run_train_global/global_model_best.pt",
+  "best_encoder_ckpt": "./run_train_global/global_encoder_best.pt",
+  "history_csv": "./run_train_global/train_history.csv",
+  "n_features": 66,
+  "val_metrics_fixed_threshold": {
+    "thr": 0.5017132759094238,
+    "mcc": 0.43316829262696444,
+    "precision": 0.7305775432424509,
+    "recall": 0.7335884604062408,
+    "f1": 0.7320799059929496,
+    "prob_mean": 0.5049387599531975,
+    "prob_std": 0.2839936509835214
+  }
+}
