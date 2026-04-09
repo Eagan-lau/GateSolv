@@ -1,0 +1,47 @@
+{
+  "name": "avg_probs",
+  "description": "Simple average of Top-k ML probabilities",
+  "meta_learner": "average",
+  "add_raw_features": false,
+  "threshold": 0.6900000000000001,
+  "val_metrics": {
+    "MCC": 0.6191306020353946,
+    "F1": 0.803330191643104,
+    "Precision": 0.8612327382957224,
+    "Recall": 0.7527229908743008,
+    "Accuracy": 0.8060418280402789,
+    "ROC_AUC": 0.8995024174949119,
+    "PR_AUC": 0.9132649081377602,
+    "TN": 2646,
+    "FP": 412,
+    "FN": 840,
+    "TP": 2557
+  },
+  "test_metrics": {
+    "MCC": 0.6176856921630888,
+    "F1": 0.801015550618851,
+    "Precision": 0.8553032870213487,
+    "Recall": 0.7532079976126529,
+    "Accuracy": 0.8058522991175104,
+    "ROC_AUC": 0.8998593170482159,
+    "PR_AUC": 0.9104034346317975,
+    "TN": 2681,
+    "FP": 427,
+    "FN": 827,
+    "TP": 2524
+  },
+  "ece_val": 0.07489383424380483,
+  "ece_test": 0.07482983350605556,
+  "top_models": [
+    "LR",
+    "ExtraTrees",
+    "LightGBM",
+    "XGBoost"
+  ],
+  "input_feature_names": [
+    "OOF_LR",
+    "OOF_ExtraTrees",
+    "OOF_LightGBM",
+    "OOF_XGBoost"
+  ]
+}

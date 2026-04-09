@@ -1,0 +1,10 @@
+{
+  "type": "stacking",
+  "threshold": 0.51,
+  "input_feature_names": [
+    "OOF_LR",
+    "OOF_ExtraTrees",
+    "OOF_LightGBM",
+    "OOF_XGBoost"
+  ]
+}

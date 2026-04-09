@@ -1,0 +1,26 @@
+{
+  "script": "train-v6-formal.py",
+  "timestamp": "20260318_160951",
+  "train_csv": "../3_build_h_graph/step3_out/exports/vector_noln.h_fused_train.csv",
+  "val_csv": "../3_build_h_graph/step3_out/exports/vector_noln.h_fused_val.csv",
+  "test_csv": "../3_build_h_graph/step3_out/exports/vector_noln.h_fused_test.csv",
+  "device": "cuda",
+  "seed": 42,
+  "topk": 4,
+  "oof_folds": 5,
+  "feat_prefix": "h_fused_",
+  "ece_bins": 15,
+  "run_extended_compare": true,
+  "selected_final_model": "mlp2_hybrid",
+  "selected_base_models": [
+    "LR",
+    "ExtraTrees",
+    "LightGBM",
+    "XGBoost"
+  ],
+  "base_model_selection_strategy": "family_constrained",
+  "boosting_corr_threshold": 0.985,
+  "final_threshold": 0.56,
+  "final_val_mcc": 0.6246191032198948,
+  "final_test_mcc": 0.6050630013001995
+}

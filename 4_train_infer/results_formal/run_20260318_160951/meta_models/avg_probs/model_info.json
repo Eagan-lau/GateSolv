@@ -1,0 +1,16 @@
+{
+  "type": "simple_average",
+  "top_models": [
+    "LR",
+    "ExtraTrees",
+    "LightGBM",
+    "XGBoost"
+  ],
+  "threshold": 0.6900000000000001,
+  "input_feature_names": [
+    "OOF_LR",
+    "OOF_ExtraTrees",
+    "OOF_LightGBM",
+    "OOF_XGBoost"
+  ]
+}

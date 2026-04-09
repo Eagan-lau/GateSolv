@@ -1,0 +1,47 @@
+{
+  "name": "stacking_probs",
+  "description": "Logistic stacking using only Top-k ML probabilities",
+  "meta_learner": "stacking",
+  "add_raw_features": false,
+  "threshold": 0.51,
+  "val_metrics": {
+    "MCC": 0.6213173919170085,
+    "F1": 0.818168279970216,
+    "Precision": 0.82790837854129,
+    "Recall": 0.8086546953193995,
+    "Accuracy": 0.810844306738962,
+    "ROC_AUC": 0.899249000724488,
+    "PR_AUC": 0.9130690853695236,
+    "TN": 2487,
+    "FP": 571,
+    "FN": 650,
+    "TP": 2747
+  },
+  "test_metrics": {
+    "MCC": 0.6188781792959233,
+    "F1": 0.8151487826871056,
+    "Precision": 0.821071752951862,
+    "Recall": 0.8093106535362579,
+    "Accuracy": 0.8095680445889457,
+    "ROC_AUC": 0.8993422697540872,
+    "PR_AUC": 0.9100138121486753,
+    "TN": 2517,
+    "FP": 591,
+    "FN": 639,
+    "TP": 2712
+  },
+  "ece_val": 0.08263938068743834,
+  "ece_test": 0.0813615104926105,
+  "top_models": [
+    "LR",
+    "ExtraTrees",
+    "LightGBM",
+    "XGBoost"
+  ],
+  "input_feature_names": [
+    "OOF_LR",
+    "OOF_ExtraTrees",
+    "OOF_LightGBM",
+    "OOF_XGBoost"
+  ]
+}

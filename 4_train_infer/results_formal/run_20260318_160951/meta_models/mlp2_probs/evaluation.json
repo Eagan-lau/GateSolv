@@ -1,0 +1,47 @@
+{
+  "name": "mlp2_probs",
+  "description": "MLP2 using only Top-k ML probabilities",
+  "meta_learner": "mlp2",
+  "add_raw_features": false,
+  "threshold": 0.64,
+  "val_metrics": {
+    "MCC": 0.6224209591140182,
+    "F1": 0.8080211409917613,
+    "Precision": 0.8560606060606061,
+    "Recall": 0.7650868413305858,
+    "Accuracy": 0.8086754453911696,
+    "ROC_AUC": 0.8992624296473651,
+    "PR_AUC": 0.9130510298988762,
+    "TN": 2621,
+    "FP": 437,
+    "FN": 798,
+    "TP": 2599
+  },
+  "test_metrics": {
+    "MCC": 0.6160053846396324,
+    "F1": 0.8041301627033792,
+    "Precision": 0.8451167379151595,
+    "Recall": 0.7669352432109818,
+    "Accuracy": 0.8061619445734634,
+    "ROC_AUC": 0.8997474581628565,
+    "PR_AUC": 0.910256713098263,
+    "TN": 2637,
+    "FP": 471,
+    "FN": 781,
+    "TP": 2570
+  },
+  "ece_val": 0.07157200752222934,
+  "ece_test": 0.07056151675546311,
+  "top_models": [
+    "LR",
+    "ExtraTrees",
+    "LightGBM",
+    "XGBoost"
+  ],
+  "input_feature_names": [
+    "OOF_LR",
+    "OOF_ExtraTrees",
+    "OOF_LightGBM",
+    "OOF_XGBoost"
+  ]
+}

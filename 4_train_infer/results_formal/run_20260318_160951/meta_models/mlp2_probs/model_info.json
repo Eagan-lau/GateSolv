@@ -1,0 +1,22 @@
+{
+  "type": "mlp2",
+  "threshold": 0.64,
+  "best_info": {
+    "hidden": [
+      128
+    ],
+    "dropout": 0.1,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 256,
+    "best_epoch": 18,
+    "best_threshold": 0.64,
+    "best_val_mcc": 0.6224209591140182
+  },
+  "input_feature_names": [
+    "OOF_LR",
+    "OOF_ExtraTrees",
+    "OOF_LightGBM",
+    "OOF_XGBoost"
+  ]
+}
